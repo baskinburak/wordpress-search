@@ -37,8 +37,7 @@
 			}
 			catch(PDOException $e)
 			{
-				echo "There was an error while establishing database connection. ";
-				echo $e->getMessage();
+				die(json_encode("There was an error while establishing database connection."));
 			}
 		}
 		public function get_results($word,$selection)
