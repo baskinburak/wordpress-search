@@ -1,0 +1,128 @@
+#info
+{
+	width:40%;
+	margin:0 auto;
+}
+#search-form
+{
+	text-align:center;
+}
+#loading
+{
+	text-align:center;
+	display:none;
+	margin-top:5px;
+}
+#more
+{
+	display:none;
+	text-align:center;
+}
+#nomore
+{
+	display:none;
+	text-align:center;
+}
+h3
+{
+	margin: 1em 0px 0.5em;
+	color: #343434;
+	font-weight: normal;
+	font-family: Arial,sans-serif;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	
+}
+#title
+{
+	text-align:center;
+}
+#query
+{
+	margin-bottom:15px;
+	color:black;
+	border:1px solid #222;
+	font-size:20px;
+	width:50%;
+	padding:5px;
+}
+#table
+{
+	background:none;
+	border:none;
+	padding:3px;
+}
+#submit
+{
+	border:none;
+	font-family:'Helvetica Neue',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:32px;
+	padding:4px 16px;
+	
+}
+#results
+{
+	margin-top:20px;
+}
+.post-result
+{
+	border:3px solid #cccccc;
+	padding:20px;
+	width:80%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.post-title
+{
+}
+.post-not-title
+{
+	width:100%;
+}
+.post-not-title:after
+{
+	content:"";
+	display:table;
+	clear:both;
+}
+.post-content
+{
+	float:left;
+	display:inline-block;
+	width:60%;
+	font-size:10px;
+}
+.post-tags
+{
+	word-wrap: break-word;
+	font-size:12px;
+	float:left;
+	display:inline-block;
+	padding:0;
+	width:20%;
+}
+.post-categories
+{
+
+	word-wrap: break-word;
+	font-size:12px;
+	float:left;
+	display:inline-block;
+	width:19%;
+}
+.taxonomy-title
+{
+	font-size:20px;
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+.post-tags li,.post-categories li
+{
+	list-style-type:square;
+	margin-left:15px;
+}
