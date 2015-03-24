@@ -50,7 +50,7 @@
 				ORDER BY seq_in_index;",PDO::FETCH_ASSOC);
 		if($doweneed->rowCount()==0)
 		{
-			$connection->query("ALTER TABLE ".$commentsTble." ADD FULLTEXT idx_comment_content(comment_content)");
+			$connection->query("ALTER TABLE ".$commentsTable." ADD FULLTEXT idx_comment_content(comment_content)");
 		}
 		
 		echo "Done! Remove the setup folder.";
